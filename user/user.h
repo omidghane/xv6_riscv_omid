@@ -1,4 +1,4 @@
-struct stat;
+    struct stat;
 
 // system calls
 int fork(void);
@@ -22,6 +22,8 @@ int getpid(void);
 char* sbrk(int);
 int sleep(int);
 int uptime(void);
+
+int pages(void);
 
 // ulib.c
 int stat(const char*, struct stat*);
