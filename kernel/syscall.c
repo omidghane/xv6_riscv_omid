@@ -130,7 +130,7 @@ static uint64 (*syscalls[])(void) = {
 [SYS_close]   sys_close,
 
 [SYS_pages]   sys_pages,
-[SYS_traceon] sys_traceon,
+
 };
 
 void

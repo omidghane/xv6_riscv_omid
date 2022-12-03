@@ -93,9 +93,7 @@ sys_uptime(void)
 uint64
 sys_pages(void)
 {
-    if(myproc()->trace) {
-        printf("[%d] sys_pages(%d)\n", myproc()->pid);
-    }
+
     return kfreepages();
 
 }
